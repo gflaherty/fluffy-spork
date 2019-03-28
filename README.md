@@ -2,6 +2,9 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/gflaherty/fluffy-spork/badge.svg?branch=master)](https://coveralls.io/github/gflaherty/fluffy-spork?branch=master)
 
+[![codecov](https://codecov.io/gh/gflaherty/fluffy-spork/branch/master/graph/badge.svg)](https://codecov.io/gh/gflaherty/fluffy-spork)
+
+# How to
 Coverage with pytest-cov:
 
 `python -m pytest --cov=. -v -s`

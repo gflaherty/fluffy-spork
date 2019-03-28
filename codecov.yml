@@ -1,2 +1,6 @@
+coverage:
+  precision: 1
+  round: down
 ignore:
   - "do_not_notice" # Dummy to see if it changes things
+  - "hw.py" # Will it ignore this?
