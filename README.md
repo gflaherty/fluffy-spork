@@ -14,6 +14,10 @@ python -m pytest --cov=. -v -s
 ../codecov.sh -c -t 76a9880f-fb41-4aa4-b548-de441cde39da
 ```
 
+```
+git add "**/*.py"
+```
+
 Must have installed:
 ```
 sudo pip install pytest
