@@ -7,5 +7,14 @@
 # How to
 Coverage with pytest-cov:
 
-`python -m pytest --cov=. -v -s`
+```
+python -m pytest --cov=. -v -s
+../codecov.sh -t 76a9880f-fb41-4aa4-b548-de441cde39da
+```
+
+Must have installed:
+```
+sudo pip install pytest
+sudo pip install pytest-cov
+```
 
