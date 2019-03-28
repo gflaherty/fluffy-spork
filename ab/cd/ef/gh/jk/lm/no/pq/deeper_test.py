@@ -14,3 +14,4 @@ def test_dummy():
     if __name__ == "bar":
         assert(False)
         print("Not covered")
+        assert(False)

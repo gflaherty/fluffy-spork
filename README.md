@@ -7,9 +7,11 @@
 # How to
 Coverage with pytest-cov:
 
+(The `-c` option is very important. The script creates a `coverage.xml` file which it won't regenerate
+if you don't include that flag - resulting in stale coverage data)
 ```
 python -m pytest --cov=. -v -s
-../codecov.sh -t 76a9880f-fb41-4aa4-b548-de441cde39da
+../codecov.sh -c -t 76a9880f-fb41-4aa4-b548-de441cde39da
 ```
 
 Must have installed:
