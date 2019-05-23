@@ -6,6 +6,11 @@ if __name__ == "foo":
     print("Is not")
     print("Covered. :(")
 
+
+if __name__:
+    print("Coverage here.")
+    
+
 print("But this")
 print("Is.")
 
