@@ -17,6 +17,6 @@ def test_timsort_c():
     assert(ret == sorted(ret))
 
 def test_timsort_d():
-    ret = timsort_d([7, 6, 5, 4, 3, 2, 1])
+    ret = timsort_d([6, 7, 5, 4, 3, 2, 1])
 #    ret = timsort_c([2, 3, 1, 5, 6, 7])
     assert(ret == sorted(ret))
