@@ -1,6 +1,7 @@
 
-from timsort import timsort, timsort_b, timsort_c
-
+from timsort import timsort
+from timsort_b import timsort as timsort_b
+from timsort_c import timsort as timsort_c
 
 def test_timsort():
     ret = timsort([2, 3, 1, 5, 6, 7])
