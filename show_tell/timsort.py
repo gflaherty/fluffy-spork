@@ -94,6 +94,6 @@ def timsort(the_array):
     for run in sorted_runs:
         sorted_array = merge(sorted_array, run)
 
-    print(sorted_array)
+    return sorted_array
 
 #timsort([2, 3, 1, 5, 6, 7])

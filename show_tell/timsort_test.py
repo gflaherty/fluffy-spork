@@ -8,4 +8,5 @@ def test_sort_a():
     assert(True)
 
 def test_timsort():
-    timsort([2, 3, 1, 5, 6, 7])
+    ret = timsort([2, 3, 1, 5, 6, 7])
+    assert(ret == sorted(ret))

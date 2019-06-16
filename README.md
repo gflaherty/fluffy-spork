@@ -18,7 +18,8 @@ bash <(curl -s http://codecov-dev.aws.uberatc.net/bash) -c -d -t ab85d018-28d8-4
 
 
 git add -u && git commit -m "WiP" && git push origin HEAD:master
-python -m pytest --cov=. -v -s show_tell/ && bash <(curl -s https://codecov.io/bash) -c -t 76a9880f-fb41-4aa4-b548-de441cde39da
+python -m pytest --cov=. -v -s show_tell/
+bash <(curl -s https://codecov.io/bash) -c -t 76a9880f-fb41-4aa4-b548-de441cde39da
 
 ```
 
