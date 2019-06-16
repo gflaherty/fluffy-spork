@@ -12,6 +12,9 @@ if you don't include that flag - resulting in stale coverage data)
 ```
 python -m pytest --cov=. -v -s
 ../codecov.sh -c -t 76a9880f-fb41-4aa4-b548-de441cde39da
+
+bash <(curl -s http://codecov-dev.aws.uberatc.net/bash)
+bash <(curl -s http://codecov-dev.aws.uberatc.net/bash) -c -d -t ab85d018-28d8-4f48-9ce5-907b33919eaa
 ```
 
 ```
