@@ -23,7 +23,7 @@ def binary_search(the_array, item, start, end):
     if start > end:
         return start
 
-    mid = round((start + end)/ 2)
+    mid = int(round((start + end)/ 2))
 
     if the_array[mid] < item:
         return binary_search(the_array, item, mid + 1, end)
@@ -79,7 +79,8 @@ def timsort(the_array):
                 new_run.append(the_array[i])
             else:
                 runs.append(new_run)
-                new_run = []
+                new_run = [the_array[i]]
+#                new_run = []
         # else if its equal to or more than
         else:
             new_run.append(the_array[i])
