@@ -70,7 +70,7 @@ def timsort(the_array):
             else:
                 runs.append(new_run)
                 new_run = [the_array[i]]
-#                 new_run = []
+#                new_run = []
         # else if its equal to or more than
         else:
             new_run.append(the_array[i])
