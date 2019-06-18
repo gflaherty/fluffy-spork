@@ -16,26 +16,26 @@ def test_timsort():
     assert(ret == sorted(ret))
 
 def test_timsort_a():
-    ret = timsort_a(arr)
-    assert(ret == sorted(ret))
+#     ret = timsort_a(arr)
+#     assert(ret == sorted(ret))
     ret = timsort_a(arr_a)
     assert(ret == sorted(ret))
 
 def test_timsort_b():
-    ret = timsort_b(arr)
-    assert(ret == sorted(ret))
-    ret = timsort_b(arr_a)
-    assert(ret == sorted(ret))
+#     ret = timsort_b(arr)
+#     assert(ret == sorted(ret))
+#     ret = timsort_b(arr_a)
+#     assert(ret == sorted(ret))
     ret = timsort_b(arr_b)
     assert(ret == sorted(ret))
 
 def test_timsort_c():
-    ret = timsort_c(arr)
-    assert(ret == sorted(ret))
-    ret = timsort_c(arr_a)
-    assert(ret == sorted(ret))
-    ret = timsort_c(arr_b)
-    assert(ret == sorted(ret))
+#     ret = timsort_c(arr)
+#     assert(ret == sorted(ret))
+#     ret = timsort_c(arr_a)
+#     assert(ret == sorted(ret))
+#     ret = timsort_c(arr_b)
+#     assert(ret == sorted(ret))
     ret = timsort_c(arr_c)
     assert(ret == sorted(ret))
 
