@@ -4,21 +4,12 @@ from timsort_a import timsort as timsort_a
 from timsort_b import timsort as timsort_b
 from timsort_c import timsort as timsort_c
 from timsort_d import timsort as timsort_d
-import random
 
 arr = (2, 3, 1, 5, 6, 7)
 arr_a = (1, 2, 3, 4, 1, 2, 3, 4)
 arr_b = (1, 1, 1, 1, 1)
 arr_c = (7, 6, 5, 4, 3, 2, 1)
-arr_d = (1, 1, 1, 1, 0)
-# arr_d = (1, 1, 3, 3, 0, 0)
-arr_d = [4, 5, 7, 2, 8, 7, 10, 3]# + list(arr_c)
-#random.shuffle(arr_d)
-# arr_d = []
-# for i in range(5):
-#     arr_d.append(random.randint(1, 25))
-# print("foo")
-# print(arr_d)
+arr_d = (4, 5, 7, 2, 8, 7, 10, 3)
 
 def test_timsort():
     ret = timsort(arr)
