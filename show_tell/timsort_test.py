@@ -6,7 +6,7 @@ from timsort_c import timsort as timsort_c
 from timsort_d import timsort as timsort_d
 
 arr = [2, 3, 1, 5, 6, 7]
-arr_a = [7, 1, 2, 3, 4, 5]
+arr_a = [1, 2, 3, 4, 1, 2, 3, 4]
 arr_b = [1, 2, 3, 5, 6, 7]
 arr_c = [7, 6, 5, 4, 3, 2, 1]
 arr_d = [6, 7, 5, 4, 3, 2, 1]
