@@ -50,7 +50,6 @@ def timsort(the_array):
                 new_run.append(the_array[i])
             else:
                 runs.append(new_run)
-#                 new_run = []
                 new_run = [the_array[i]]
         else:
             new_run.append(the_array[i])
