@@ -6,16 +6,17 @@ from timsort_c import timsort as timsort_c
 from timsort_d import timsort as timsort_d
 
 arr = (2, 3, 1, 5, 6, 7)
+#arr = (2, )
 arr_a = (1, 2, 3, 4, 1, 2, 3, 4)
 arr_b = (1, 1, 1, 1, 1)
 arr_c = (7, 6, 5, 4, 3, 2, 1)
 arr_d = (4, 5, 7, 2, 8, 7, 10, 3)
 arr_e = (1, 2, 3, None)
-arr_f = ()
+arr_f = [3, 4 ]
 
 def test_timsort():
-    ret = timsort(arr)
-    assert(ret == sorted(arr))
+    ret = timsort([3])
+    assert(ret == [3])
 
 def test_timsort_a():
     ret = timsort_a(arr)
