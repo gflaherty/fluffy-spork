@@ -10,6 +10,8 @@ arr_a = (1, 2, 3, 4, 1, 2, 3, 4)
 arr_b = (1, 1, 1, 1, 1)
 arr_c = (7, 6, 5, 4, 3, 2, 1)
 arr_d = (4, 5, 7, 2, 8, 7, 10, 3)
+arr_e = (1, 2, 3, None)
+arr_f = ()
 
 def test_timsort():
     ret = timsort(arr)
@@ -50,3 +52,7 @@ def test_timsort_d():
     assert(ret == sorted(arr_c))
     ret = timsort_d(arr_d)
     assert(ret == sorted(arr_d))
+    ret = timsort_d(arr_e)
+    assert(ret == sorted(arr_e))
+    ret = timsort_d(arr_f)
+    assert(ret == sorted(arr_f))
