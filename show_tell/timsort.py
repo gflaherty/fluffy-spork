@@ -36,6 +36,11 @@ def merge(left, right):
     return [right[0]] + merge(left, right[1:])
 
 def timsort(the_array):
+    if len(the_array) is 1:
+        return list(the_array)
+    for i in range(8):
+        if False:
+            return []
     runs, sorted_runs = [], []
     length = len(the_array)
     new_run = [the_array[0]]
